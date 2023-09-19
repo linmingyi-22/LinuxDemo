@@ -1,0 +1,27 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.22.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  Multi_Download_v1.c
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(45,15): warning : conversion to ‘size_t’ {aka ‘long unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(45,15): warning :    45 |  info->offset += size * memb;
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(45,15): warning :       |               ^~
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(45,18): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(45,18): warning :    45 |  info->offset += size * memb;
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(45,18): warning :       |                  ^~~~
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(68,41): warning : conversion from ‘double’ to ‘__off_t’ {aka ‘long int’} may change value [-Wfloat-conversion]
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(68,41): warning :    68 |  if (-1 == lseek(fd, downloadFileLength - 1, SEEK_SET))
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(68,41): warning :       |                      ~~~~~~~~~~~~~~~~~~~^~~
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(80,36): warning : conversion from ‘double’ to ‘size_t’ {aka ‘long unsigned int’} may change value [-Wfloat-conversion]
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(80,36): warning :    80 |  char* fileptr = (char*)mmap(NULL, downloadFileLength, PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0);
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(80,36): warning :       |                                    ^~~~~~~~~~~~~~~~~~
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(90,19): warning : conversion from ‘double’ to ‘size_t’ {aka ‘long unsigned int’} may change value [-Wfloat-conversion]
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(90,19): warning :    90 |   munmap(fileptr, downloadFileLength);
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(90,19): warning :       |                   ^~~~~~~~~~~~~~~~~~
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(109,18): warning : conversion from ‘double’ to ‘size_t’ {aka ‘long unsigned int’} may change value [-Wfloat-conversion]
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(109,18): warning :   109 |  munmap(fileptr, downloadFileLength);
+D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\Multi_Download_v1.c(109,18): warning :       |                  ^~~~~~~~~~~~~~~~~~
+  正在链接对象
+  Multi_Download.vcxproj -> D:\App\Microsoft Visual Studio\Visual Stdio Project\Linux\Multi_Download\Multi_Download\bin\x64\Debug\Multi_Download.out

@@ -1,0 +1,1 @@
+g++ -o "/home/colin/projects/Multi_Download/bin/x64/Debug/Multi_Download.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/colin/projects/Multi_Download/obj/x64/Debug/Multi_Download_v1.o -lcurl
